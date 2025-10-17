@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Recipe Search
 
-## Getting Started
+## 概要
+**Recipe Search**は、ユーザーが持っている食材をもとにレシピを検索できるWebアプリです。  
+検索バーに食材名を入力すると、その食材を使った料理のレシピが一覧で表示されます。
 
-First, run the development server:
+## 目的
+- ユーザーが家にある食材から簡単に料理を見つけられるようにする  
+- 調理の手順や材料を一目で確認できる利便性を提供  
+- 日常の献立作りを効率化し、料理のアイデアを広げる
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## デモ
+Webアプリ（動作確認用）: [https://recipe-seach.vercel.app](https://recipe-seach.vercel.app)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 使用技術
+- フレームワーク：Next.js  
+- 使用API：TheMealDB  
+- データベース：Firebase (Authentication, Firestore Database)  
+- エディタ：Visual Studio Code
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 主な機能
+- ユーザー認証機能  
+- レシピ検索機能  
+- レシピ詳細表示機能  
+- お気に入り登録 / 削除機能  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 私の担当
+- ログイン機能の実装（ユーザー認証・セッション管理）  
+  [ログイン機能のコードはこちら](https://github.com/itc-s24020/My-Recipe-Search/tree/main/app/sign_up)
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 学んだこと / 工夫したこと
+- 予定していた機能をすべて実装できた  
+- チームでの役割分担と連携により、効率的に開発を進められた  
+- AIを活用してコード作成やデバッグを効率化  
+- UI/UXの改善やレスポンシブ対応を意識したデザイン調整  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 改善案
+- レシピ翻訳機能の追加（多言語対応）  
+- ログイン後にお気に入りレシピを保存できる機能  
+- ソーシャルログインなどのログイン連携機能追加  
+
+---
+
+## ソースコード
+GitHubリポジトリ（ポートフォリオ用）: [https://github.com/itc-s24020/My-Recipe-Search](https://github.com/itc-s24020/My-Recipe-Search)
+
+
