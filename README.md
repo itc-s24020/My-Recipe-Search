@@ -53,7 +53,5 @@ Webアプリ（動作確認用）: [https://recipe-seach.vercel.app](https://rec
 
 ---
 
-## ソースコード
-GitHubリポジトリ（ポートフォリオ用）: [https://github.com/itc-s24020/My-Recipe-Search](https://github.com/itc-s24020/My-Recipe-Search)
 
 
